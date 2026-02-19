@@ -6,7 +6,6 @@ class Notif < Formula
   license "MIT"
   head "https://github.com/coryfklein/macos-notification-cli.git", branch: "main"
 
-  depends_on xcode: ["15.0", :build]
   depends_on :macos
 
   def install
